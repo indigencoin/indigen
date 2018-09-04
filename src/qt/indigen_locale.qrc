@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/indigen_bg.qm</file>
+        <file alias="ca">locale/indigen_ca.qm</file>
+        <file alias="cs">locale/indigen_cs.qm</file>
+        <file alias="da">locale/indigen_da.qm</file>
+        <file alias="de">locale/indigen_de.qm</file>
+        <file alias="en">locale/indigen_en.qm</file>
+        <file alias="en_US">locale/indigen_en_US.qm</file>
+        <file alias="es">locale/indigen_es.qm</file>
+        <file alias="fi">locale/indigen_fi.qm</file>
+        <file alias="fr_FR">locale/indigen_fr_FR.qm</file>
+        <file alias="it">locale/indigen_it.qm</file>
+        <file alias="ja">locale/indigen_ja.qm</file>
+        <file alias="ko_KR">locale/indigen_ko_KR.qm</file>
+        <file alias="nl">locale/indigen_nl.qm</file>
+        <file alias="pl">locale/indigen_pl.qm</file>
+        <file alias="pt">locale/indigen_pt.qm</file>
+        <file alias="pt_BR">locale/indigen_pt_BR.qm</file>
+        <file alias="ro_RO">locale/indigen_ro_RO.qm</file>
+        <file alias="ru">locale/indigen_ru.qm</file>
+        <file alias="sk">locale/indigen_sk.qm</file>
+        <file alias="sv">locale/indigen_sv.qm</file>
+        <file alias="tr">locale/indigen_tr.qm</file>
+        <file alias="uk">locale/indigen_uk.qm</file>
+        <file alias="zh_CN">locale/indigen_zh_CN.qm</file>
+        <file alias="zh_TW">locale/indigen_zh_TW.qm</file>
+    </qresource>
+</RCC>

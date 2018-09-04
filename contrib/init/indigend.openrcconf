@@ -1,0 +1,26 @@
+# /etc/conf.d/indigend: config file for /etc/init.d/indigend
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/indigen/indigen.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/indigend"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/indigend.pid"
+
+# Where to write indigend data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/indigend"
+
+# User and group to own indigend process
+#BITCOIND_USER="indigen"
+#BITCOIND_GROUP="indigen"
+
+# Path to indigend executable
+#BITCOIND_BIN="/usr/bin/indigend"
+
+# Nice value to run indigend under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

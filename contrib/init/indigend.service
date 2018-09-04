@@ -1,0 +1,26 @@
+[Unit]
+Description=Indigen's distributed currency daemon
+After=network.target
+
+[Service]
+User=indigen
+Group=indigen
+
+Type=forking
+PIDFile=/var/lib/indigend/indigend.pid
+
+ExecStart=/usr/bin/indigend -daemon -pid=/var/lib/indigend/indigend.pid \
+          -conf=/etc/indigen/indigen.conf -datadir=/var/lib/indigend
+
+ExecStop=-/usr/bin/indigen-cli -conf=/etc/indigen/indigen.conf \
+         -datadir=/var/lib/indigend stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
